@@ -8,12 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		55B428F422639EDD00FC1600 /* IronSourceCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B428F222639EDD00FC1600 /* IronSourceCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B428FB22639F2A00FC1600 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B428FA22639F2A00FC1600 /* IronSource.framework */; };
+		55B428FD22639F3800FC1600 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B428FC22639F3800FC1600 /* Test.swift */; };
+		55B429312263B83000FC1600 /* ISLoggersSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291A2263B82B00FC1600 /* ISLoggersSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429322263B83000FC1600 /* ISEventsReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291B2263B82B00FC1600 /* ISEventsReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429332263B83000FC1600 /* ISServerResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291C2263B82B00FC1600 /* ISServerResponseParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429342263B83000FC1600 /* ISSupersonicAdsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291D2263B82C00FC1600 /* ISSupersonicAdsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429352263B83000FC1600 /* ISIntegrationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291E2263B82C00FC1600 /* ISIntegrationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429362263B83000FC1600 /* ISEventsSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4291F2263B82C00FC1600 /* ISEventsSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429372263B83000FC1600 /* ISDemandOnlyInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429202263B82C00FC1600 /* ISDemandOnlyInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429382263B83000FC1600 /* ISSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429212263B82C00FC1600 /* ISSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429392263B83000FC1600 /* ISBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429222263B82C00FC1600 /* ISBannerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293A2263B83000FC1600 /* IronSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429232263B82D00FC1600 /* IronSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293B2263B83000FC1600 /* ISOfferwallDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429242263B82D00FC1600 /* ISOfferwallDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293C2263B83000FC1600 /* ISConfigurations.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429252263B82D00FC1600 /* ISConfigurations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293D2263B83000FC1600 /* ISPlacementInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429262263B82D00FC1600 /* ISPlacementInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293E2263B83000FC1600 /* ISSegmentDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429272263B82D00FC1600 /* ISSegmentDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B4293F2263B83000FC1600 /* ISBannerSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429282263B82E00FC1600 /* ISBannerSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429402263B83000FC1600 /* ISGender.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429292263B82E00FC1600 /* ISGender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429412263B83000FC1600 /* ISInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292A2263B82E00FC1600 /* ISInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429422263B83000FC1600 /* ISProductSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292B2263B82E00FC1600 /* ISProductSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429432263B83000FC1600 /* ISRewardedInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292C2263B82F00FC1600 /* ISRewardedInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429442263B83000FC1600 /* ISRewardedVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292D2263B82F00FC1600 /* ISRewardedVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429452263B83000FC1600 /* ISLogDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292E2263B82F00FC1600 /* ISLogDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429462263B83000FC1600 /* ISDemandOnlyRewardedVideoDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B4292F2263B82F00FC1600 /* ISDemandOnlyRewardedVideoDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B429472263B83000FC1600 /* ISBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B429302263B82F00FC1600 /* ISBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55B428EF22639EDD00FC1600 /* IronSourceCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IronSourceCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B428F222639EDD00FC1600 /* IronSourceCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IronSourceCarthage.h; sourceTree = "<group>"; };
 		55B428F322639EDD00FC1600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B428FA22639F2A00FC1600 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
+		55B428FC22639F3800FC1600 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		55B4291A2263B82B00FC1600 /* ISLoggersSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISLoggersSettings.h; path = IronSourceCarthage/IronSource.framework/Headers/ISLoggersSettings.h; sourceTree = "<group>"; };
+		55B4291B2263B82B00FC1600 /* ISEventsReporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISEventsReporting.h; path = IronSourceCarthage/IronSource.framework/Headers/ISEventsReporting.h; sourceTree = "<group>"; };
+		55B4291C2263B82B00FC1600 /* ISServerResponseParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISServerResponseParser.h; path = IronSourceCarthage/IronSource.framework/Headers/ISServerResponseParser.h; sourceTree = "<group>"; };
+		55B4291D2263B82C00FC1600 /* ISSupersonicAdsConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSupersonicAdsConfiguration.h; path = IronSourceCarthage/IronSource.framework/Headers/ISSupersonicAdsConfiguration.h; sourceTree = "<group>"; };
+		55B4291E2263B82C00FC1600 /* ISIntegrationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISIntegrationHelper.h; path = IronSourceCarthage/IronSource.framework/Headers/ISIntegrationHelper.h; sourceTree = "<group>"; };
+		55B4291F2263B82C00FC1600 /* ISEventsSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISEventsSettings.h; path = IronSourceCarthage/IronSource.framework/Headers/ISEventsSettings.h; sourceTree = "<group>"; };
+		55B429202263B82C00FC1600 /* ISDemandOnlyInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyInterstitialDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISDemandOnlyInterstitialDelegate.h; sourceTree = "<group>"; };
+		55B429212263B82C00FC1600 /* ISSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSegment.h; path = IronSourceCarthage/IronSource.framework/Headers/ISSegment.h; sourceTree = "<group>"; };
+		55B429222263B82C00FC1600 /* ISBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISBannerView.h; path = IronSourceCarthage/IronSource.framework/Headers/ISBannerView.h; sourceTree = "<group>"; };
+		55B429232263B82D00FC1600 /* IronSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IronSource.h; path = IronSourceCarthage/IronSource.framework/Headers/IronSource.h; sourceTree = "<group>"; };
+		55B429242263B82D00FC1600 /* ISOfferwallDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISOfferwallDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISOfferwallDelegate.h; sourceTree = "<group>"; };
+		55B429252263B82D00FC1600 /* ISConfigurations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISConfigurations.h; path = IronSourceCarthage/IronSource.framework/Headers/ISConfigurations.h; sourceTree = "<group>"; };
+		55B429262263B82D00FC1600 /* ISPlacementInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISPlacementInfo.h; path = IronSourceCarthage/IronSource.framework/Headers/ISPlacementInfo.h; sourceTree = "<group>"; };
+		55B429272263B82D00FC1600 /* ISSegmentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISSegmentDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISSegmentDelegate.h; sourceTree = "<group>"; };
+		55B429282263B82E00FC1600 /* ISBannerSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISBannerSize.h; path = IronSourceCarthage/IronSource.framework/Headers/ISBannerSize.h; sourceTree = "<group>"; };
+		55B429292263B82E00FC1600 /* ISGender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISGender.h; path = IronSourceCarthage/IronSource.framework/Headers/ISGender.h; sourceTree = "<group>"; };
+		55B4292A2263B82E00FC1600 /* ISInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISInterstitialDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISInterstitialDelegate.h; sourceTree = "<group>"; };
+		55B4292B2263B82E00FC1600 /* ISProductSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISProductSettings.h; path = IronSourceCarthage/IronSource.framework/Headers/ISProductSettings.h; sourceTree = "<group>"; };
+		55B4292C2263B82F00FC1600 /* ISRewardedInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISRewardedInterstitialDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISRewardedInterstitialDelegate.h; sourceTree = "<group>"; };
+		55B4292D2263B82F00FC1600 /* ISRewardedVideoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISRewardedVideoDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISRewardedVideoDelegate.h; sourceTree = "<group>"; };
+		55B4292E2263B82F00FC1600 /* ISLogDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISLogDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISLogDelegate.h; sourceTree = "<group>"; };
+		55B4292F2263B82F00FC1600 /* ISDemandOnlyRewardedVideoDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISDemandOnlyRewardedVideoDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISDemandOnlyRewardedVideoDelegate.h; sourceTree = "<group>"; };
+		55B429302263B82F00FC1600 /* ISBannerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ISBannerDelegate.h; path = IronSourceCarthage/IronSource.framework/Headers/ISBannerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B428FB22639F2A00FC1600 /* IronSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,10 +97,44 @@
 		55B428F122639EDD00FC1600 /* IronSourceCarthage */ = {
 			isa = PBXGroup;
 			children = (
+				55B429482263B85A00FC1600 /* Public Headers */,
+				55B428FC22639F3800FC1600 /* Test.swift */,
+				55B428FA22639F2A00FC1600 /* IronSource.framework */,
 				55B428F222639EDD00FC1600 /* IronSourceCarthage.h */,
 				55B428F322639EDD00FC1600 /* Info.plist */,
 			);
 			path = IronSourceCarthage;
+			sourceTree = "<group>";
+		};
+		55B429482263B85A00FC1600 /* Public Headers */ = {
+			isa = PBXGroup;
+			children = (
+				55B429232263B82D00FC1600 /* IronSource.h */,
+				55B429302263B82F00FC1600 /* ISBannerDelegate.h */,
+				55B429282263B82E00FC1600 /* ISBannerSize.h */,
+				55B429222263B82C00FC1600 /* ISBannerView.h */,
+				55B429252263B82D00FC1600 /* ISConfigurations.h */,
+				55B429202263B82C00FC1600 /* ISDemandOnlyInterstitialDelegate.h */,
+				55B4292F2263B82F00FC1600 /* ISDemandOnlyRewardedVideoDelegate.h */,
+				55B4291B2263B82B00FC1600 /* ISEventsReporting.h */,
+				55B4291F2263B82C00FC1600 /* ISEventsSettings.h */,
+				55B429292263B82E00FC1600 /* ISGender.h */,
+				55B4291E2263B82C00FC1600 /* ISIntegrationHelper.h */,
+				55B4292A2263B82E00FC1600 /* ISInterstitialDelegate.h */,
+				55B4292E2263B82F00FC1600 /* ISLogDelegate.h */,
+				55B4291A2263B82B00FC1600 /* ISLoggersSettings.h */,
+				55B429242263B82D00FC1600 /* ISOfferwallDelegate.h */,
+				55B429262263B82D00FC1600 /* ISPlacementInfo.h */,
+				55B4292B2263B82E00FC1600 /* ISProductSettings.h */,
+				55B4292C2263B82F00FC1600 /* ISRewardedInterstitialDelegate.h */,
+				55B4292D2263B82F00FC1600 /* ISRewardedVideoDelegate.h */,
+				55B429212263B82C00FC1600 /* ISSegment.h */,
+				55B429272263B82D00FC1600 /* ISSegmentDelegate.h */,
+				55B4291C2263B82B00FC1600 /* ISServerResponseParser.h */,
+				55B4291D2263B82C00FC1600 /* ISSupersonicAdsConfiguration.h */,
+			);
+			name = "Public Headers";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +145,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B428F422639EDD00FC1600 /* IronSourceCarthage.h in Headers */,
+				55B429312263B83000FC1600 /* ISLoggersSettings.h in Headers */,
+				55B429322263B83000FC1600 /* ISEventsReporting.h in Headers */,
+				55B429332263B83000FC1600 /* ISServerResponseParser.h in Headers */,
+				55B429342263B83000FC1600 /* ISSupersonicAdsConfiguration.h in Headers */,
+				55B429352263B83000FC1600 /* ISIntegrationHelper.h in Headers */,
+				55B429362263B83000FC1600 /* ISEventsSettings.h in Headers */,
+				55B429372263B83000FC1600 /* ISDemandOnlyInterstitialDelegate.h in Headers */,
+				55B429382263B83000FC1600 /* ISSegment.h in Headers */,
+				55B429392263B83000FC1600 /* ISBannerView.h in Headers */,
+				55B4293A2263B83000FC1600 /* IronSource.h in Headers */,
+				55B4293B2263B83000FC1600 /* ISOfferwallDelegate.h in Headers */,
+				55B4293C2263B83000FC1600 /* ISConfigurations.h in Headers */,
+				55B4293D2263B83000FC1600 /* ISPlacementInfo.h in Headers */,
+				55B4293E2263B83000FC1600 /* ISSegmentDelegate.h in Headers */,
+				55B4293F2263B83000FC1600 /* ISBannerSize.h in Headers */,
+				55B429402263B83000FC1600 /* ISGender.h in Headers */,
+				55B429412263B83000FC1600 /* ISInterstitialDelegate.h in Headers */,
+				55B429422263B83000FC1600 /* ISProductSettings.h in Headers */,
+				55B429432263B83000FC1600 /* ISRewardedInterstitialDelegate.h in Headers */,
+				55B429442263B83000FC1600 /* ISRewardedVideoDelegate.h in Headers */,
+				55B429452263B83000FC1600 /* ISLogDelegate.h in Headers */,
+				55B429462263B83000FC1600 /* ISDemandOnlyRewardedVideoDelegate.h in Headers */,
+				55B429472263B83000FC1600 /* ISBannerDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +203,7 @@
 				TargetAttributes = {
 					55B428EE22639EDD00FC1600 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B428FD22639F3800FC1600 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +371,7 @@
 		55B428F822639EDD00FC1600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -268,6 +379,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronSourceCarthage",
+				);
 				INFOPLIST_FILE = IronSourceCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -279,6 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.IronSourceCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +403,7 @@
 		55B428F922639EDD00FC1600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -294,6 +411,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronSourceCarthage",
+				);
 				INFOPLIST_FILE = IronSourceCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
