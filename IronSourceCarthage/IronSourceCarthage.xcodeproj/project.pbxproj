@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		555C20D82263912800A60C9D /* IronSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 555C20D62263912800A60C9D /* IronSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B428F422639EDD00FC1600 /* IronSourceCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B428F222639EDD00FC1600 /* IronSourceCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		555C20D32263912800A60C9D /* IronSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IronSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		555C20D62263912800A60C9D /* IronSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IronSource.h; sourceTree = "<group>"; };
-		555C20D72263912800A60C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B428EF22639EDD00FC1600 /* IronSourceCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IronSourceCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B428F222639EDD00FC1600 /* IronSourceCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IronSourceCarthage.h; sourceTree = "<group>"; };
+		55B428F322639EDD00FC1600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		555C20D02263912800A60C9D /* Frameworks */ = {
+		55B428EC22639EDD00FC1600 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,96 +27,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		555C20C92263912800A60C9D = {
+		55B428E522639EDD00FC1600 = {
 			isa = PBXGroup;
 			children = (
-				555C20D52263912800A60C9D /* IronSource */,
-				555C20D42263912800A60C9D /* Products */,
+				55B428F122639EDD00FC1600 /* IronSourceCarthage */,
+				55B428F022639EDD00FC1600 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		555C20D42263912800A60C9D /* Products */ = {
+		55B428F022639EDD00FC1600 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555C20D32263912800A60C9D /* IronSource.framework */,
+				55B428EF22639EDD00FC1600 /* IronSourceCarthage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		555C20D52263912800A60C9D /* IronSource */ = {
+		55B428F122639EDD00FC1600 /* IronSourceCarthage */ = {
 			isa = PBXGroup;
 			children = (
-				555C20D62263912800A60C9D /* IronSource.h */,
-				555C20D72263912800A60C9D /* Info.plist */,
+				55B428F222639EDD00FC1600 /* IronSourceCarthage.h */,
+				55B428F322639EDD00FC1600 /* Info.plist */,
 			);
-			path = IronSource;
+			path = IronSourceCarthage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		555C20CE2263912800A60C9D /* Headers */ = {
+		55B428EA22639EDD00FC1600 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555C20D82263912800A60C9D /* IronSource.h in Headers */,
+				55B428F422639EDD00FC1600 /* IronSourceCarthage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		555C20D22263912800A60C9D /* IronSource */ = {
+		55B428EE22639EDD00FC1600 /* IronSourceCarthage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C20DB2263912800A60C9D /* Build configuration list for PBXNativeTarget "IronSource" */;
+			buildConfigurationList = 55B428F722639EDD00FC1600 /* Build configuration list for PBXNativeTarget "IronSourceCarthage" */;
 			buildPhases = (
-				555C20CE2263912800A60C9D /* Headers */,
-				555C20CF2263912800A60C9D /* Sources */,
-				555C20D02263912800A60C9D /* Frameworks */,
-				555C20D12263912800A60C9D /* Resources */,
+				55B428EA22639EDD00FC1600 /* Headers */,
+				55B428EB22639EDD00FC1600 /* Sources */,
+				55B428EC22639EDD00FC1600 /* Frameworks */,
+				55B428ED22639EDD00FC1600 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IronSource;
-			productName = IronSource;
-			productReference = 555C20D32263912800A60C9D /* IronSource.framework */;
+			name = IronSourceCarthage;
+			productName = IronSourceCarthage;
+			productReference = 55B428EF22639EDD00FC1600 /* IronSourceCarthage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		555C20CA2263912800A60C9D /* Project object */ = {
+		55B428E622639EDD00FC1600 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Eugeny Popov";
 				TargetAttributes = {
-					555C20D22263912800A60C9D = {
+					55B428EE22639EDD00FC1600 = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
 			};
-			buildConfigurationList = 555C20CD2263912800A60C9D /* Build configuration list for PBXProject "IronSource" */;
+			buildConfigurationList = 55B428E922639EDD00FC1600 /* Build configuration list for PBXProject "IronSourceCarthage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 555C20C92263912800A60C9D;
-			productRefGroup = 555C20D42263912800A60C9D /* Products */;
+			mainGroup = 55B428E522639EDD00FC1600;
+			productRefGroup = 55B428F022639EDD00FC1600 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				555C20D22263912800A60C9D /* IronSource */,
+				55B428EE22639EDD00FC1600 /* IronSourceCarthage */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		555C20D12263912800A60C9D /* Resources */ = {
+		55B428ED22639EDD00FC1600 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +126,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		555C20CF2263912800A60C9D /* Sources */ = {
+		55B428EB22639EDD00FC1600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,7 +136,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		555C20D92263912800A60C9D /* Debug */ = {
+		55B428F522639EDD00FC1600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -200,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		555C20DA2263912800A60C9D /* Release */ = {
+		55B428F622639EDD00FC1600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +258,7 @@
 			};
 			name = Release;
 		};
-		555C20DC2263912800A60C9D /* Debug */ = {
+		55B428F822639EDD00FC1600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -268,15 +268,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = IronSource/Info.plist;
+				INFOPLIST_FILE = IronSourceCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IronSource;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronSourceCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -284,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		555C20DD2263912800A60C9D /* Release */ = {
+		55B428F922639EDD00FC1600 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -294,15 +293,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = IronSource/Info.plist;
+				INFOPLIST_FILE = IronSourceCarthage/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IronSource;
+				PRODUCT_BUNDLE_IDENTIFIER = com.IronSourceCarthage;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,25 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		555C20CD2263912800A60C9D /* Build configuration list for PBXProject "IronSource" */ = {
+		55B428E922639EDD00FC1600 /* Build configuration list for PBXProject "IronSourceCarthage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555C20D92263912800A60C9D /* Debug */,
-				555C20DA2263912800A60C9D /* Release */,
+				55B428F522639EDD00FC1600 /* Debug */,
+				55B428F622639EDD00FC1600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C20DB2263912800A60C9D /* Build configuration list for PBXNativeTarget "IronSource" */ = {
+		55B428F722639EDD00FC1600 /* Build configuration list for PBXNativeTarget "IronSourceCarthage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				555C20DC2263912800A60C9D /* Debug */,
-				555C20DD2263912800A60C9D /* Release */,
+				55B428F822639EDD00FC1600 /* Debug */,
+				55B428F922639EDD00FC1600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 555C20CA2263912800A60C9D /* Project object */;
+	rootObject = 55B428E622639EDD00FC1600 /* Project object */;
 }
